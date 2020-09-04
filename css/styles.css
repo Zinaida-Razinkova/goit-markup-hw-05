@@ -550,14 +550,10 @@ transform: translate(-50%, -50%);
   fill: #afb1b8;
 }
 
-.icon-instagram:hover,
-.icon-instagram:focus {
-  fill: var(--primary-bg-color);
-}
-
-.link-instagram:hover,.link-instagram:focus
+.link-instagram:hover .icon-instagram,
+.link-instagram:focus .icon-instagram
  {
-  background-color: var(--accent-color);
+  fill: var(--primary-bg-color);
   outline: none;
 }
 
@@ -578,13 +574,10 @@ transform: translate(-50%, -50%);
   fill: #afb1b8;
 }
 
-.icon-twitter:hover,
-.icon-twitter:focus {
+.link-twitter:hover .icon-twitter,
+.link-twitter:focus .icon-twitter 
+{
   fill: var(--primary-bg-color);
-}
-.link-twitter:hover,
-.link-twitter:focus {
-  background-color: var(--accent-color);
   outline: none;
 }
 
@@ -605,13 +598,12 @@ transform: translate(-50%, -50%);
   fill: #afb1b8;
 }
 
-.icon-facebook:hover,
-.icon-facebook:focus {
+
+
+.link-facebook:hover .icon-facebook,
+.link-facebook:focus .icon-facebook
+{
   fill: var(--primary-bg-color);
-}
-.link-facebook:hover,
-.link-facebook:focus {
-  background-color: var(--accent-color);
   outline: none;
 }
 /* Линкедин */
@@ -632,14 +624,10 @@ transform: translate(-50%, -50%);
   fill: #afb1b8;
 }
 
-.icon-linkedin:hover,
-.icon-linkedin:focus {
+.link-linkedin:hover .icon-linkedin,
+.link-linkedin:focus .icon-linkedin
+ {
   fill: var(--primary-bg-color);
-}
-
-.link-linkedin:hover,
-.link-linkedin:focus {
-  background-color: var(--accent-color);
   outline: none;
 }
 
